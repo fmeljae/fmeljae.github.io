@@ -1,0 +1,69 @@
+PCs{
+    background-color: aqua;
+    display: block;
+}
+
+PC{
+    display: block;
+    border: 1px solid black;
+    margin: 20px;
+    background-color:springgreen;
+}
+
+PC[referencia="dos"]{
+    background-color: hotpink;
+}
+
+
+CPU{
+    display: block;
+    font-weight: bold;
+    color: yellow;
+    margin: 10px;
+    font-size: 2em;
+}
+
+GPU{
+    display: block;
+    margin: 5px;
+}
+
+Slot_RAM{
+    display: block;
+    margin: 5px;
+}
+
+Placa_base{
+    display: block;
+    margin: 5px;
+    text-decoration: underline yellow;
+    font-weight: bold;
+}
+
+Fuente_alimentacion{
+    display: block;
+    margin: 5px;
+    color: grey;
+    font-weight: bold;
+}
+
+Disipador{
+    display: block;
+    margin: 5px;
+}
+
+Raton{
+    display: block;
+    margin: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+Teclado{
+    display: block;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}

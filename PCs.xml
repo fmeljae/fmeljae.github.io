@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="EstiloPCs.css"?>
+<!DOCTYPE PCs [
+   <!ELEMENT PCs (PC)*>
+   <!ELEMENT PC (CPU, GPU*, Slot_RAM, Placa_base, Fuente_alimentacion, Disipador, Raton, Teclado)>
+   <!ELEMENT CPU (#PCDATA)>
+   <!ELEMENT GPU (#PCDATA)>
+   <!ELEMENT Slot_RAM (Cantidad+, Tamaño)>
+        <!ELEMENT Cantidad (#PCDATA)>
+        <!ELEMENT Tamaño (#PCDATA)>
+   <!ELEMENT Placa_base (#PCDATA)>
+   <!ELEMENT Fuente_alimentacion (#PCDATA)>
+   <!ELEMENT Disipador (#PCDATA)>
+   <!ELEMENT Raton (#PCDATA)>
+   <!ELEMENT Teclado (#PCDATA)>
+      <!ATTLIST PC referencia CDATA #IMPLIED>
+]>
+
+<PCs>
+   <PC referencia="uno">
+      <CPU>Intel</CPU>
+      <GPU>ASUS</GPU>
+      <GPU>GIGABYTE</GPU>
+      <Slot_RAM>
+         <Cantidad>1</Cantidad>
+         <Tamaño>8 GB</Tamaño>
+      </Slot_RAM>
+      <Placa_base>ASUS</Placa_base>
+      <Fuente_alimentacion>Cooler Master</Fuente_alimentacion>
+      <Disipador>Arctic Freezer 34</Disipador>
+      <Raton>Logitech</Raton>
+      <Teclado>Logitech</Teclado>
+   </PC>
+
+   <PC referencia="dos">
+      <CPU>AMD</CPU>
+      <GPU>ASUS</GPU>
+      <GPU>GIGABYTE</GPU>
+      <Slot_RAM>
+         <Cantidad>2</Cantidad>
+         <Tamaño>4 GB</Tamaño>
+      </Slot_RAM>
+      <Placa_base>GIGABYTE</Placa_base>
+      <Fuente_alimentacion>Corsair</Fuente_alimentacion>
+      <Disipador>Arctic Freezer 34</Disipador>
+      <Raton>Logitech</Raton>
+      <Teclado>Corsair</Teclado>
+   </PC>
+
+   <PC referencia="tres">
+      <CPU>AMD</CPU>
+      <GPU>ASUS</GPU>
+      <GPU>GIGABYTE</GPU>
+      <Slot_RAM>
+         <Cantidad>2</Cantidad>
+         <Tamaño>8 GB</Tamaño>
+      </Slot_RAM>
+      <Placa_base>ASUS</Placa_base>
+      <Fuente_alimentacion>Seasonic</Fuente_alimentacion>
+      <Disipador>Arctic Freezer 34</Disipador>
+      <Raton>Logitech</Raton>
+      <Teclado>Razer</Teclado>
+   </PC>
+
+   <PC referencia="cuatro">
+      <CPU>INTEL</CPU>
+      <GPU>ASUS</GPU>
+      <GPU>GIGABYTE</GPU>
+      <Slot_RAM>
+         <Cantidad>1</Cantidad>
+         <Tamaño>16 GB</Tamaño>
+      </Slot_RAM>
+      <Placa_base>Lenovo</Placa_base>
+      <Fuente_alimentacion>EVGA</Fuente_alimentacion>
+      <Disipador>Arctic Freezer 34</Disipador>
+      <Raton>Logitech</Raton>
+      <Teclado>Logitech</Teclado>
+   </PC>
+</PCs>
