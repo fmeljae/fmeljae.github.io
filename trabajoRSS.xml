@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<rss version="2.0">
+    <channel>
+        <title>Trabajo de RSS</title>
+        <link>https://fmeljae.github.io/</link>
+        <description>En este trabajo habrá una parte de HTML, CSS y otra de XML con CSS</description>
+        <item>
+            <title>Canal de HTML</title>
+            <link>https://fmeljae.github.io/Practica%20Libre/PaginaPrincipal.html</link>
+            <description>Trabajo de HTML con alta información de F1</description>
+            <pubDate>13:44 del 22 de octubre de 2021</pubDate>
+        </item>
+        <item>
+            <title>Canal de CSS</title>
+            <link></link>
+            <description>Trabajo de CSS sobre ciertos animales "¡ESTÁ EN LATÍN 😟!"</description>
+            <pubDate>12:58 del 25 de noviembre de 2021</pubDate>
+        </item>
+        <item>
+            <title>Canal sobre un XML</title>
+            <link>https://fmeljae.github.io/PCs.xml</link>
+            <description>Trabajo de XML que trata sobre PCs, además tiene un formato bonito</description>
+            <pubDate>12:47 del 21 de marzo de 2022</pubDate>
+        </item>
+    </channel>
+
+
+
+</rss>
